@@ -1,0 +1,70 @@
+body {
+    text-align: center;
+    padding: 10%;
+    font-family: sans-serif;
+}
+
+#doblecolumna {
+    background-color: yellow;
+    padding: 5%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.columnauno {
+    background-color: pink;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    padding: 5%;
+
+    
+}
+
+.columnados{
+    background-color: skyblue;
+    display: grid;
+    justify-items: left;
+    align-items: center;
+    padding: 10%;
+ 
+
+}
+
+.columnados p {
+    text-align: left;
+}
+
+button{
+    padding: 8%;
+    margin-bottom: 5%;
+    font-size: 1.2em;
+    background-color: black;
+    color: white;
+    border-radius: 2em; 
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.5;
+}
+
+
+
+#bombilla {
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
